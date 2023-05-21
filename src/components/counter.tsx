@@ -13,7 +13,7 @@ interface CounterProps {
 
 export default function Counter({ count, setCount, candidate }: CounterProps) {
   return (
-    <div>
+    <div className="select-none">
       <div className="flex items-center justify-center">
         <Image
           alt={`${candidate}-image`}
