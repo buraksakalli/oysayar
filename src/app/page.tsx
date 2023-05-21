@@ -35,7 +35,7 @@ export default function Home() {
   };
 
   return (
-    <main className="p-4 flex flex-col justify-center h-screen container mx-auto">
+    <main className="p-4 flex flex-col justify-center min-h-screen container mx-auto">
       <div className={GRID_CONTAINER}>
         <Card className={HALF_WIDTH_CONTAINER}>
           <Card.Title>{VALID_VOTES_TITLE}</Card.Title>

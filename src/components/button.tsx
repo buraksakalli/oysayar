@@ -15,7 +15,7 @@ export const Button = ({
   return (
     <button
       className={cn(
-        "rounded-md py-6 flex items-center justify-center transition-all active:scale-95",
+        "rounded-md py-6 flex items-center justify-center transition-all active:scale-95 select-none",
         props.className
       )}
       onClick={onClick}
