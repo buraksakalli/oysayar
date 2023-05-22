@@ -1,18 +1,8 @@
 import Head from "next/head";
 
-export default function Meta({
-  title = "Dub - Link Management for Modern Marketing Teams",
-  description = "Dub is an open-source link management tool for modern marketing teams to create, share, and track short links.",
-  image = "https://dub.sh/_static/thumbnail.png",
-}: {
-  title?: string;
-  description?: string;
-  image?: string;
-}) {
+export default function Meta() {
   return (
     <Head>
-      <title>{title}</title>
-      <meta name="description" content={description} />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
