@@ -41,11 +41,9 @@ export default function Counter({ count, setCount, candidate }: CounterProps) {
         <Input
           value={count}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-            const newValue = e.target.value.replace(/[^\d]/g, "");
-            const newCount = Number(newValue);
-            if (!Number.isNaN(newCount)) {
-              setCount(newCount);
-            }
+            const value = Number(e.target.value.replace(/[^\d]/g, ""));
+
+            if (!Number.isNaN(value)) setCount(value);
           }}
         />
 
