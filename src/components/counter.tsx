@@ -21,7 +21,7 @@ export default function Counter({ count, setCount, candidate }: CounterProps) {
       <div className="flex items-center justify-center">
         <Image
           alt={`${candidate}-image`}
-          src={`/${candidate}.png`}
+          src={`/_static/${candidate}.png`}
           width={178}
           height={170}
           quality={100}
