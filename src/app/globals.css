@@ -21,3 +21,19 @@ html {
     -moz-appearance: textfield !important;
   }
 }
+
+.container-main {
+  @apply p-4 flex flex-col justify-center min-h-screen container mx-auto max-w-lg;
+}
+
+.button-reset {
+  @apply flex items-center gap-2 active:scale-95 transition-transform;
+}
+
+.container-grid {
+  @apply grid grid-cols-12 gap-4;
+}
+
+.container-grid-extended {
+  @apply mt-4 grid grid-cols-12 gap-4;
+}
