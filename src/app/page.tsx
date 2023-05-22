@@ -20,8 +20,8 @@ export default function Home() {
     <main className="container-main">
       <div className="flex justify-end mb-4">
         <button className="button-reset" onClick={handleReset}>
-          <RefreshIcon className="stroke-white" />
-          <span className="text-white">{RESET_TEXT}</span>
+          <RefreshIcon className="stroke-theme-blue w-4" />
+          <span>{RESET_TEXT}</span>
         </button>
       </div>
       <div className="container-grid">

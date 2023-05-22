@@ -18,7 +18,7 @@ export default function Card({ ...props }: CardProps) {
 }
 
 const CardTitle = ({ children }: { children: React.ReactNode }) => {
-  return <h2 className="text-xs text-left mb-1">{children}</h2>;
+  return <h2 className="text-xs text-left mb-1 font-bold">{children}</h2>;
 };
 
 const CardValue = ({ children }: { children: React.ReactNode }) => {

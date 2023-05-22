@@ -11,7 +11,7 @@ export const Input = ({ ...props }: InputProps) => {
     <input
       type="text"
       className={cn(
-        "border rounded-md border-black/30 text-7xl font-bold py-5 text-center",
+        "border rounded-md border-black/30 text-7xl font-bold py-5 text-center text-theme-gray",
         props.className
       )}
       value={props.value}

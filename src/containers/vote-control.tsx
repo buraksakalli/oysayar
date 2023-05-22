@@ -28,7 +28,7 @@ export const VoteControls = ({
       </Button>
 
       <Input
-        className="border rounded-md border-black/30 text-4xl font-bold text-center w-full text-black py-0"
+        className="border rounded-md border-black/30 text-4xl font-bold text-center w-full py-0"
         value={count}
         onChange={handleInput}
       />

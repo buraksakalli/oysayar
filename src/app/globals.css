@@ -27,7 +27,7 @@ html {
 }
 
 .button-reset {
-  @apply flex items-center gap-2 active:scale-95 transition-transform;
+  @apply flex items-center gap-2 active:scale-95 transition-transform text-theme-blue text-sm;
 }
 
 .container-grid {
