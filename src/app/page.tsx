@@ -43,7 +43,7 @@ export default function Home() {
   };
 
   return (
-    <main className="p-4 flex flex-col justify-center min-h-screen container mx-auto">
+    <main className="p-4 flex flex-col justify-center min-h-screen container mx-auto max-w-lg">
       <div className="flex justify-end mb-4">
         <button
           className="flex items-center gap-2 active:scale-95 transition-transform"
