@@ -1,5 +1,7 @@
 ## OySayar
 
+![oysayar-logo-192x192](https://github.com/buraksakalli/oysayar/assets/10114716/992822f7-0f37-46b1-a2b4-54e7065e2aab)
+
 OySayar is a tool developed to facilitate counting votes for the 2023 elections in Turkiye. It is a web application that can be used by anyone to count votes for the election. It is developed using Next.js and TailwindCSS.
 
 ## Preview
